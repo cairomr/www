@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.DiscontBar{
+    position: fixed;
+    width: 1024px;
+    height: 38px;
+    background-color: #1CD1B0;
+    left: 0px;
+    top: 0px;
+}
+.DiscontBar p {
+    font-size: 15px;
+    line-height: 17,58px;
+    color: #000000;
+    padding: 10px;
+}
+.SuperHerois {
+    position: fixed;
+    width: 1024px;
+    height: 101px;
+    top: 38px;
+    left: 0px;
+    background: #00669F;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+header section {
+    position: absolute;
+    width: 234px;
+    height: 47px;
+    top: 24px;
+    left: 28px;
+}
+header section p {
+    font-size: 40px;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+main {
+    position: relative;
+    width: 834px;
+    height: 597px;
+    left: 0px;
+    top: 223px;
+}
+.cards {
+    position: relative;
+    width: 834px;
+    height: 597px;
+    top: 0px;
+    left: 86px;
+}
+.batman {
+    height: 597px;
+    width: 374px;
+    left: 112px;
+    top: 223px;
+    border-radius: 20px 20px 0px 0px;
+    display: inline-block;
+    margin: auto 28px;
+    z-index: 3;
+}
+.harley {
+    position: relative;
+    height: 597px;
+    width: 374px;
+    left: 0px;
+    top: 0px;
+    border-radius: 20px 20px 0px 0px;
+    display: inline-block;
+    z-index: 3;
+}
+.cards-sup {
+    height: 217px;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+}
+.cards-sup-b {
+    background-image: url('../img/background1.png');
+}
+.cards-sup-h {
+    background-image: url('../img/background2.png');
+}
+.cards-heart {
+    position: relative;
+    width: 35px;
+    height: 30px;
+    top: 24px;
+    left: 24px; 
+    background-image: url('../img/heart.png');
+    z-index: 3;
+}
+.cards-img-hero {
+    position: relative;
+    left: 120px;
+    top: -70px;
+    height: 134px;
+    width: 134px;
+    border-radius: 75px;
+    z-index: 4;
+    display: block;
+}
+.cards-img-hero-b {
+    background-image: url('../img/batman.png');
+}
+.cards-img-hero-h {
+    background-image: url('../img/harley.png');
+}
+.cards-inf {
+    position: relative;
+    top: -135px;
+    left: 0px;
+    width: 374px;
+    height: 379px;
+    background-color: #f3f3f3;
+}
+.cards-inf h1 {
+    position: relative;
+    top: 80px;
+    left: 0px;
+    height: 39.5px;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+}
+.cards-inf p {
+    position: relative;
+    top: 95px;
+    left: 0px;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 100%;
+    height: 120px;
+}
+.cards-inf input {
+    position: relative;
+    height: 54px;
+    width: 145px;
+    left: 120px;
+    top: 145px;
+    border-radius: 0px;
+    background-color: #00669F;
+    color: white;
+    border: 0px;
+}
+footer {
+    position: absolute;
+    height: 51px;
+    width: 1024px;
+    left: 0px;
+    top: 972px;
+    border-radius: 0px;
+    background-color: #00669F;
+}
+footer section p {
+    left: 0px;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 18px 10px;
+}
