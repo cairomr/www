@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: Roboto;
+    font-size: 16px;
+}
+a {
+    text-decoration: none;
+    color:#FFF;
+}
+.logo {
+    padding-left: 44px;
+}
+.header-promocao, .footer-copyright {
+    width: 100%;
+    height: 20px;
+    background-color: #222;
+}
+.header-promocao p {
+    color: #F3F3F3;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: left;
+    padding: 4px 0px 4px 90px;
+}
+.header-top{
+    width: 100%;
+    height: 62px; 
+    background-color: #F0A83E; 
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+}
+.colorbrown {
+    color: #3C2313;
+}
+.menu-top {
+    color:#FFF;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.menu-top ul li {
+    display: inline;
+    padding-right: 10px;
+}
+.banner {
+    background-image: url('../img/bowl-and-pet-daities-on-green-background\ 1.png');
+    height: 100%;
+    height: 409px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items:flex-end;
+}
+.slogam {
+    width: 365px;
+    text-align: center;
+}
+.slogam-1 {
+    background-color: #FFF;
+    color: #3C2313;
+    font-size: 30px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.slogam-2 {
+    color: #3C2313;
+    font-size: 16px;
+    margin: 10px;
+}
+.slogam-3 {
+    width: 140px;
+    height: 50px;
+    background-color: #F0A83E;
+    color: #3C2313;
+    border-radius: 1px;
+    border: none;
+    margin: 10px;
+}
+.titulo-produtos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.titulo-produtos-patinha {
+    width: 67px;
+    height: 71px;
+}
+.titulo-produtos-texto{
+    color:#3C2313;
+    font-size: 40px;
+}
+.menu-celtral-produtos {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.menu-celtral-produtos ul li {
+    display: inline;
+    padding: 0px 10px; 
+}
+.menu-celtral-produtos a {
+    color: #666666;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.grupo-produtos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-produto {
+    width: 265px;
+    background-color: #FBFAF6;
+    margin-right: 50px;
+}
+.desc-card-produto {
+    text-align: center;
+    color: #3C2313;
+}
+.preco-card-produto {
+    color: #F0A83E;
+}
+.contato {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;  
+    margin: 20px auto;
+}
+.titulo-contato {
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #3C2313;
+    margin: 50px 0px 20px 0px;
+}
+.formulario {
+    text-align: center;
+}
+.form{
+    width: 340px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #3C2313;
+    color: #FFF;
+    font-size: 9px;
+    line-height: 11px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 5px auto;
+}
+.botao-form {
+    width: 110px;
+    height: 40px;
+    border-radius: 15px;
+    margin: 5px;
+}
+.botao-limpar {
+    background-color: #8A8787;
+}
+.botao-enviar {
+    background-color: #F0A83E;
+}
+.botao-subscription {
+    background-color: #3C2313;
+}
+.form-subscription {
+    width: 340px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #FFF;
+    color: #A0A0A0;
+    font-size: 9px;
+    line-height: 11px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 5px auto;    
+}
+.footer-subscription {
+    width: 100%;
+    height: 60px;
+    background-color: #F0A83E;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;  
+}
+.footer-contato {
+    width: 100%;
+    height: 284px;
+    background-color: #3C2313;
+}
+.footer-copyright p {
+    color: #F3F3F3;
+    font-size: 10px;
+    text-align: center;
+    padding: 4px 0px;
+}
+@media (max-width: 425px) {
+    .container {
+        width: 100%;
+    }
+    .grupo-produtos {
+        flex-direction: column;
+    }
+}
+

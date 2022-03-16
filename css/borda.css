@@ -21,7 +21,7 @@
     padding: 10px;
 }
 .SuperHerois {
-    position: fixed;
+    position: absolute;
     width: 1024px;
     height: 101px;
     top: 38px;
