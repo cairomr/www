@@ -1,0 +1,100 @@
+.modalDialog {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+  }
+  .modalDialog:target {
+    opacity:1;
+    pointer-events: auto;
+  }
+  .modalDialog > div { /*serve para editar a box modal*/
+    width: 340px;
+    height: 335px;
+    position: relative;
+    margin: 10% auto;
+    padding: 20px 0 20px;
+    border-radius: 30px;
+    background-image: url("../image/toposite.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    color:white;
+  }
+  .fechar-modal { /*estilização botão fechar*/
+    position: absolute;
+    width: 30px;
+    right: -15px;
+    top: -20px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 5px;
+    background: #ff4545;
+    border-radius: 50%;
+    font-size: 16px;
+    color: black;
+  }
+  .fechar-modal:hover {
+    background: red;
+  }
+
+  /*estilo dos input,  menos o checkbox */
+  .input-login{
+    width: 93%;
+    margin-top: 4px;
+    padding: 10px;    
+    border: 1px solid #b2b2b2;
+  }
+ 
+.botao-login{
+  width: 100%!important;
+  cursor: pointer;  
+  background: rgb(61, 157, 179);
+  padding: 8px 5px;
+  color: #fff;
+  font-size: 20px;  
+  border: 1px solid #fff;   
+  margin-bottom: 10px;  
+  text-shadow: 0 1px 1px #333;
+  border-radius: 5px;
+  transition: all 0.2s linear;
+}
+.botao-login:hover{
+  background: #4ab3c6;
+}
+
+h2{
+    font-size: 48px;
+    color: #066a75;
+    padding: 2px 0 10px 0;
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 30px;
+}
+h2:after{
+    content: ' ';
+    display: block;
+    width: 100%;
+    height: 2px;
+    margin-top: 10px;
+    background: -webkit-linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%); 
+    background: linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%); 
+}
+  .modalDialog p{
+    margin-bottom:15px;
+  }
+   
+.modalDialog label{
+    color: #f4f9ff;
+    position: relative;
+    padding-left: 10px;
+  }
