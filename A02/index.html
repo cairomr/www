@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta name="author" content="Cairo Ramon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/script.js" defer></script>
+    <title>Jokenpo</title>
+</head>
+<body>
+    <div class="bar">
+        <span class="bar-text">Digite seu nome: <input type="text" id="nome" name="nome"> <button onclick="nomeJogador()">Confirmar</button> <button onclick="limpar()">Reiniciar Jogo</button></span></div>
+    </div>
+    <main class="conteudo">
+        <section class="box">
+            <div class="box-button">
+                <button onclick="jokenpo(1)">
+                    <span class="box-text">Pedra</span>
+                </button>
+            </div>
+            <div class="box-button">
+                <button onclick="jokenpo(2)">
+                    <span class="box-text">Papel</span>
+                </button>
+            </div>
+            <div class="box-button">
+                <button onclick="jokenpo(3)">
+                    <span class="box-text">Tesoura</span>
+                </button>
+            </div>
+        </section>
+        <section class="box-jogo">
+            <div class="box-jogo-row">
+                <table class="tab">
+                    <th>Resultado</th>
+                    <tr>
+                        <td id="nome2">Player:</td><td id="vitoriaPL">0</td>
+                    </tr>
+                    <tr>
+                        <td>PC:</td><td id="vitoriaPC">0</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="box-jogo-row">
+                <div class="box-jogo-img">
+                    <img src="img/logo.png" id="optionPL"><div class="box-text" id="nomeJogador">Player</div>
+                </div>
+                <div class="box-jogo-img">
+                    <img src="img/logo.png" id="optionPC"><div class="box-text" id="pc">PC</div>
+                </div>
+            </div>
+            <div class="box-jogo-row" id="resultado">
+                Faça sua escolha!
+            </div>
+        </section>
+        <section class="footer">GETUP Company @ 2022</section>
+    </main>
+</body>
+</html>

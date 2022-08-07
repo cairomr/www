@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;700&display=swap');
+* {
+    margin: 0px;
+    font-size: 20px;
+    font-family: Poppins;
+    color: #696969;
+}
+.bar {
+    width: 100vw;
+    height: 8vh;
+    background-image: linear-gradient(45deg, Khaki, darkgray);
+}
+.bar-text {
+    line-height: 8vh;
+    text-align: center;
+    padding-left: 33%;
+}
+.conteudo {
+    width: 100vw;
+    height: 92vh;
+    background-image: linear-gradient(225deg, gold, Khaki);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    width: 190px;
+    height: 530px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #CECECE;
+    box-shadow: 4px 4px 3px #2c2c2c;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    overflow: hidden;
+    margin-right: 2%;
+}
+.box-jogo {
+    width: 600px;
+    height: 530px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #CECECE;
+    box-shadow: 4px 4px 3px #2c2c2c;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    overflow: hidden;
+    padding: auto;
+}.box-jogo-row {
+    width: 600px;
+    height: 33%;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+.box-button, .box-jogo-img{
+    width: 156px;
+    height: 156px;
+    vertical-align: middle;
+    margin: 10px;
+}
+.box-button button, .box-jogo-img img{
+    width: 155px;
+    height: 155px;
+}
+.box-text {
+    text-align: center;
+    margin: auto;
+}
+.tab {
+    width: 25%;
+
+}
+.tab th {
+    column-span: 2;
+    text-align: center;
+}
+#resultado {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.footer {
+    position: fixed;
+    bottom: 10px;
+}
+/*
+.pedra {
+    background-image: url('../img/pedra.png');
+    font-weight: bold;
+    opacity: 0.8;
+}
+*/
