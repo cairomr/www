@@ -1,20 +1,21 @@
 const cards = document.querySelector('#cards');
-const btn = document.querySelector('#enviar');
+const enviar = document.querySelector('#enviar');
 const resposta = document.querySelector('#validar');
-btn.addEventListener('click',ler);
+enviar.addEventListener('click',ler);
+//limpar.addEventListener('click',limpar);
 
 function validar(nome,descricao,url){
     if (nome.value.trim() !="" && descricao.value.trim() !="" && url.value.trim() !=""){
         escrever(nome,descricao,url);
         resposta.innerHTML = "";
     } else {
-        resposta.innerHTML = `<strong>Necessário Preencher\n os dados do Form!</strong>`;
+        resposta.innerHTML = `<strong>Preencha os campos!</strong>`;
     }
 }
 function ler(){
-    const nome = document.querySelector('#nome');
-    const descricao = document.querySelector('#descricao');
-    const url = document.querySelector('#url');
+    let nome = document.querySelector('#nome');
+    let descricao = document.querySelector('#descricao');
+    let url = document.querySelector('#url');
     validar(nome,descricao,url);
 }
 
@@ -26,7 +27,9 @@ function escrever(nome,descricao,url){
     p.innerHTML = descricao.value;
     img.className = 'article-img';
     h1.innerHTML = nome.value;
+    h1.className = 'article-title';
     img.src = url.value;
+    p.className = 'article-text';
     cards.append(article); 
     article.append(img,h1)
     h1.append(p);

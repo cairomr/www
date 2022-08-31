@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600&display=swap');
 
 @media (min-width: 700px) {
   .leading {
@@ -14,15 +14,16 @@
 }
 
 body {
-  font-family: 'Open+Sans';
+  font-family: 'Oswald';
   font-size: 1.2rem;
 }
 
 header {
-  padding: 10px;
+  display: flex;
+  padding: 5px 20px;
   font-size: 2em;
   color: white;
-  background-color: black;
+  background-color: #cacaca;
 }
 
 .logo {
@@ -34,47 +35,50 @@ header {
   height: 300px;
   margin-bottom: 30px;
   padding: 30px;
-  background: url('./img/2_Violet_Dark_Blue_White_Anime_Music_Twitch_Screen.jpeg') top #333 no-repeat;
+  background: url('../img/Violet_Dark.jpg') left top #333 no-repeat;
   background-size: cover;
   color: white;
   text-shadow: 0px 0px 5px #000;
   display: flex;
   flex-direction: row-reverse;
 }
-
 .form__lista {
+  width: 400px;
+  height: 300px;
   display: flex;
   flex-direction: column;
   align-content: center;
   justify-content: center;
-  width: 400px;
-  height: 300px;
   align-items: center;
-  background-color: rgba(96, 168, 197, 0.8);
-  border-radius: 25px;
+  background-color: rgba(101, 78, 134, 0.5);
+  border-radius: 20px;
+  box-shadow: 0 0 1em gray;
 }
-
 .form__item {
   margin: 5px auto;
 }
-
 .input {
   width: 15.5rem;
-  height: 1.9rem;
-  border-radius: 25px;
+  height: 2rem;
+  border-radius: 5px;
   background-color: rgba(255, 255, 255, 0.5);
   border: 1px solid gray;
 }
-
+.txtinput {
+  width: 15.5rem;
+  height: 6rem;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid gray;
+}
 .btn {
   width: 8.5rem;
   height: 1.9rem;
   border-radius: 5px;
   background-color: rgba(255, 255, 255, 0.5);
   border: 1px solid gray;
-  margin: 5px auto;
+  margin: 5px;
 }
-
 .btn:hover {
   width: 8.5rem;
   height: 1.9rem;
@@ -84,7 +88,6 @@ header {
   color: white;
   margin: 5px;
 }
-
 .leading-bigtext {
   margin-right: 60px;
   font-weight: bold;
@@ -104,24 +107,35 @@ header {
 }
 
 .cards {
-  max-width: 960px;
-  margin: 0 auto 30px;
+  max-width: 980px;
+  margin: 0 auto 15px;
 }
 
 article {
   position: relative;
+  box-shadow: 0 0 1em gray;
 }
 
 .article-img {
   height: 200px;
-  width: 100%;
+  width: 97%;
   object-fit: cover;
+  padding: 5px;
 }
 
 .article-title {
-  position: absolute;
+  position: relative;
+  text-align: center;
   bottom: 0;
   width: 100%;
   padding: 10px;
   background-color: rgba(255, 255, 255, 0.2);
+  text-shadow: 0px 0px 5px #000;
+}
+
+.article-text{
+  font-size: 0.8rem;
+  padding: 5px;
+  width: 90%;
+  word-wrap:break-word;
 }

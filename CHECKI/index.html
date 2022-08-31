@@ -1,37 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <title>Anime Cards!</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <script type="text/javascrypt" src="js/script.js" defer></script>
-  </head>
-  <body>
-    <header>
-      <img class="logo" src="https://cdn-icons-png.flaticon.com/512/1507/1507187.png" alt="ninja turtle" />
-      <h1 class="heading">Anime cards!</h1>
-    </header>
-    <main>
-      <section class="leading">
-        <div class="container__form container--signup">
-          <form action="#" class="form" id="form1">
-            <div class="form__lista">
-              <h2 class="form__title">Envie seu anime card</h2>
-              <div class="form__item"><input type="text" placeholder="Nome" class="input" id="nome"/></div>
-              <div class="form__item"><input type="text" placeholder="Descrição" class="input" id="descricao"/></div>
-              <div class="form__item"><input type="text" placeholder="Endereço de imagem" class="input" id="url"/></div>
-              <input type="submit" class="btn" id="enviar" value="Enviar">
-              <div id="validar"></div>
-          </div>
-          </form>
-        </div>
-      </section>
-      <section class="cards" id="cards">
 
-      </section>
-    </main>
-  </body>
+<head>
+  <title>Anime Cards!</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <script src="js/script.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <img class="logo" src="https://cdn-icons-png.flaticon.com/512/1507/1507155.png" alt="ninja turtle" />
+    <h1 class="heading">Anime cards!</h1>
+  </header>
+  <main>
+    <section class="leading">
+      <div class="container__form container--signup">
+        <form action="#" class="form" id="form1">
+          <div class="form__lista">
+            <h2 class="form__title">Envie seu anime card</h2>
+            <div class="form__item"><input type="text" placeholder="Titulo do Card" class="input" id="nome"/></div>
+            <div class="form__item"><textarea rows="4" cols="29" placeholder="Descrição" class="txtinput" id="descricao"></textarea></div>
+            <div class="form__item"><input type="text" placeholder="Endereço de imagem" class="input" id="url"/></div>
+            <div class="form__item"><input type="submit" class="btn" id="enviar" value="Enviar"> <input type="reset" class="btn" id="limpar" value="Limpar"></div>
+            <div id="validar"></div>
+        </div>
+        </form>
+      </div>
+    </section>
+    <section class="cards" id="cards">
+
+    </section>
+  </main>
+</body>
+
 </html>
