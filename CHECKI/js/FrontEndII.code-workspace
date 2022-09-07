@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../DH-CTD/FrontEndII"
+		},
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "www"
+	}
+}
